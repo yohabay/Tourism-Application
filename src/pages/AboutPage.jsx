@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import jebena from "../images/jebena.jpg";
 import "./About.css";
 
 function About() {
@@ -22,7 +23,7 @@ function About() {
             is to showcase the beauty and diversity of Ethiopia through curated
             tours and personalized services.
           </p>
-          <img src="images\jebena.jpg" alt="Cultural Experience" />
+          <img src={jebena} alt="Jebena" />
         </section>
 
         <footer>

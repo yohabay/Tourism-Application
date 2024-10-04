@@ -7,8 +7,7 @@
 }
 
 .hero1 {
-  background: url("C:\Users\user\Videos\tourism-application\public\images\addisababa.jpeg")
-    no-repeat center/cover;
+  background: url("/src/images/addisababa.jpeg") no-repeat center/cover;
   color: white;
   height: auto;
   width: 100%;

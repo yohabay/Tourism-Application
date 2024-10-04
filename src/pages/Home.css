@@ -4,8 +4,7 @@
 }
 
 .hero {
-  background: url("C:/Users/user/Videos/tourism-application/public/images/Rectangle 1.png")
-    no-repeat center/cover;
+  background: url("/src/images/Rectangle\ 1.png") no-repeat center/cover;
   color: white;
   padding: 50px 0;
   position: relative;

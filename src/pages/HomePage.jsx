@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import axume from "../images/axume.jpeg";
+import lalibela from "../images/lalibela.jpeg";
+import tana from "../images/tana.jpeg";
 import "./Home.css";
-
 function Home() {
   return (
     <>
@@ -20,7 +22,7 @@ function Home() {
           <h2>Explore more:</h2>
           <div className="cards">
             <div className="card">
-              <img src="images/lalibela.jpeg" alt="Lalibela" />
+              <img src={lalibela} alt="Lalibela" />
               <p>
                 Lalibela is famous for its 12th-century rock-hewn churches
                 carved from solid stone. The churches, such as Bete Giyorgis,
@@ -30,7 +32,7 @@ function Home() {
               <button className="btn-secondary">Learn More</button>
             </div>
             <div className="card">
-              <img src="images/tana.jpeg" alt="Sof Omar" />
+              <img src={tana} alt="Tana" />
               <p>
                 Lake Tana, the source of the Blue Nile, is Ethiopia’s largest
                 lake and home to ancient monasteries. The lake's islands
@@ -40,7 +42,7 @@ function Home() {
               <button className="btn-secondary">Learn More</button>
             </div>
             <div className="card">
-              <img src="images/axume.jpeg" alt="Axum" />
+              <img src={axume} alt="Axum" />
               <p>
                 The statues of Axum, often depicting ancient kings and royal
                 figures, showcase the artistry and cultural heritage of the
