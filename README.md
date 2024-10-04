@@ -29,42 +29,28 @@ Follow these steps to install the project on your local machine:
 
    ```
 
-   Navigate to the Project Directory:
+   **Navigate to the Project Directory:**
 
-bash
-Copy code
 cd tourism-application
-Install Dependencies (if applicable):
+**Install Dependencies (if applicable):**
 
-bash
-Copy code
 npm install
-Usage
-To run the application locally:
 
-Start the development server:
-
-bash
-Copy code
+**Start the development server:**
 npm start
 Open your web browser and navigate to http://localhost:3000.
 
-Contributing
+**Contributing**
 If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch:
-bash
-Copy code
+**Fork the repository.**
+**Create a new branch:**
 git checkout -b feature/NewFeature
-Make your changes and commit them:
-bash
-Copy code
+**Make your changes and commit them:**
+
 git commit -m "Add new feature"
-Push to the branch:
-bash
-Copy code
+**Push to the branch:**
 git push origin feature/NewFeature
 Open a Pull Request.
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
